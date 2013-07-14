@@ -1,0 +1,13 @@
+header {
+	font-size: 2.5em;
+}
+body {
+	font-family: Courier, mono, "Courier New";
+}
+dd ul {
+	margin-left: 0px;
+}
+div.content_element {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
