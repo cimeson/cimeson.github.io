@@ -1,13 +1,35 @@
+/* Styles */
 header {
 	font-size: 2.5em;
 }
-body {
-	font-family: Courier, mono, "Courier New";
+header p {
+	margin: 0.5em 0px;
 }
-dd ul {
-	margin-left: 0px;
+header img {
+	margin-right: 0.25em;
+}
+body {
+	font-family: 'Junction', Arial;
+}
+dd ul li {
+	padding-left: 0px;
 }
 div.content_element {
 	margin-top: 1em;
 	margin-bottom: 1em;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'Junction';
+	src: url('/css/JunctionRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Junction';
+	src: url('/css/JunctionRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
