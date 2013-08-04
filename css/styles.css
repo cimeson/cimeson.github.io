@@ -1,23 +1,38 @@
-/* Styles */
-header {
-	font-size: 2.5em;
-}
-header p {
-	margin: 0.5em 0px;
-}
-header img {
-	float: left;
-	margin-right: 0.25em;
-}
+/* body */
 body {
 	font-family: 'Junction', Arial;
 }
-dd ul {
-	padding-left: 0px;
+
+/* Header */
+header p {
+	font-size: 2.5em;
+	margin: 0.5em 0px;
 }
-div.content_element {
-	margin-top: 1em;
-	margin-bottom: 1em;
+
+header img {
+	float: left;
+	vertical-align: text-bottom;
+	margin-right: 0.25em;
+}
+
+@media only screen and (max-width: 30em) {
+	header img { width: 1.5em; }
+	header p { font-size: 1.5em; }
+}
+
+/* Footer */
+footer p {
+	margin: 0;
+}
+
+footer hr {
+	border-width: 0;
+	margin: 0;
+	text-align: left;
+}
+
+footer hr:after {
+	content: "---";
 }
 
 /* Fonts */
