@@ -1,6 +1,6 @@
 /* body */
 body {
-	font-family: 'Junction', Arial;
+	font-family: 'Aptos', Arial;
 }
 
 /* Header */
@@ -33,19 +33,4 @@ footer hr {
 
 footer hr:after {
 	content: "---";
-}
-
-/* Fonts */
-@font-face {
-    font-family: 'Junction';
-	src: url('/css/JunctionRegular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Junction';
-	src: url('/css/JunctionRegular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
 }
